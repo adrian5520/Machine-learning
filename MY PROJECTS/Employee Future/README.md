@@ -48,11 +48,14 @@ When it comes to education, on average every second person with a master's degre
 
 ## Model Building 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
-Next i Scale data using StandardScaler() to fit buter data to model and take this column to X (['JoiningYear', 'PaymentTier', 'Age', 'ExperienceInCurrentDomain', 'Education_Masters', 'Education_PHD', 'City_New Delhi', 'City_Pune', 'Gender_Male', 'EverBenched_Yes']) and 'LiveOrNto' to y.
+Next i Scale data using StandardScaler() to fit buter data to model and take this column to
+ **X (['JoiningYear', 'PaymentTier', 'Age', 'ExperienceInCurrentDomain', 'Education_Masters', 'Education_PHD', 'City_New Delhi', 'City_Pune', 'Gender_Male', 'EverBenched_Yes'])** and **'LiveOrNto'** to **y**.
 
 ## Training Model
 For this scinario i use three models: **SVC, DecisionTreeClassifier and RandomForestClassifier** and these are the results.
+
 **The best model i can train is SVC!**
+ 
  SVC score of training data: 84,3%
  
  SVC score of testing data: 85%
