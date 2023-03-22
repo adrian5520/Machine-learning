@@ -35,11 +35,14 @@ PaymentTier is now: High Pay, Mid Pay, Low Pay
 Age is now: Young, MiddleAged, Adulthood
 LeaveOrNot is now: No, Yes
 
-I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
+Interestingly, the least correlation with the dismissal decision is the payout so it cannot be the main reason for the decision.
+The chart shows that as a percentage, women are far more likely to decide to quit than men. 
+When it comes to education, on average every second person with a master's degree quits. 
 
-![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/salary_by_job_title.PNG "Salary by Position")
-![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/positions_by_state.png "Job Opportunities by State")
-![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/correlation_visual.png "Correlations")
+![alt text](https://user-images.githubusercontent.com/117313800/226877671-3437779c-74e0-471b-9040-d547880723fc.png "Correlations")
+![alt text](https://user-images.githubusercontent.com/117313800/226877632-c590732f-e329-4bff-8e47-5d8a33e70f63.png "Experience")
+![alt text](https://user-images.githubusercontent.com/117313800/226877741-65ff1d07-47eb-4f60-a876-fc6361770857.png "Correlations")
+![alt text](https://user-images.githubusercontent.com/117313800/226877745-c8794d81-fbfa-4833-b302-412f59471976.png "Gender count")
 
 ## Model Building 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
