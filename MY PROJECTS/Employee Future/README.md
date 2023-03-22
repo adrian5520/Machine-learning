@@ -4,7 +4,7 @@
 * Optimized GridsearchCV to reach the best model.  
 
 ## Code and Resources Used 
-**Python Version:** 3.7  
+**Python Version:** 3.9  
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, plotly.express
 
 ## About Data
@@ -31,12 +31,14 @@
 
 ## EDA
 ### Data Preparinh
-PaymentTier is now: High Pay, Mid Pay, Low Pay
-Age is now: Young, MiddleAged, Adulthood
-LeaveOrNot is now: No, Yes
+* PaymentTier is now: High Pay, Mid Pay, Low Pay
+* Age is now: Young, MiddleAged, Adulthood
+* LeaveOrNot is now: No, Yes
 
 Interestingly, the least correlation with the dismissal decision is the payout so it cannot be the main reason for the decision.
+
 The chart shows that as a percentage, women are far more likely to decide to quit than men. 
+
 When it comes to education, on average every second person with a master's degree quits. 
 
 ![alt text](https://user-images.githubusercontent.com/117313800/226877671-3437779c-74e0-471b-9040-d547880723fc.png "Correlations")
