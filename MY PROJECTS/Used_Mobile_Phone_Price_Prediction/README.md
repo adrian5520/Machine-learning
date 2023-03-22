@@ -12,8 +12,8 @@
 
 
 ## EDA
-### Data Preparing
-* Models specyfication
+
+### Models specyfication
 
 1.Screen size - most have from 10 to 15 cls
 
