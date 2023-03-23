@@ -73,19 +73,19 @@ Before training the models, I prepared the data using get_dummies() and then nor
 For this problem I use three models: **LinearRegression, DecisionTreeClassifier and RandomForestClassifier** and these are the results.
 
 MSE:
-* LinearRegression: 0.05537407019586381 
-* DecisionTreeRegressor 0.11645956435285287 
-* RandomForestRegressor 0.05550902497362688 
+* LinearRegression: 0.0553
+* DecisionTreeRegressor 0.1164 
+* RandomForestRegressor 0.0555
 
 R2:
-* LinearRegression: 0.8570216595071964 
-* DecisionTreeRegressor 0.6992961653931385 
-* RandomForestRegressor 0.8566732001994756 
+* LinearRegression: 85.7%
+* DecisionTreeRegressor 69.9%
+* RandomForestRegressor 85.6%
 
 Explained Variance:
-* LinearRegression: 0.8732622797087883 
-* DecisionTreeRegressor 0.709610152863769 
-* RandomForestRegressor 0.8631342698473614 
+* LinearRegression: 87% 
+* DecisionTreeRegressor 71%
+* RandomForestRegressor 86%
 
 **Best model: Linear Regression**
 
